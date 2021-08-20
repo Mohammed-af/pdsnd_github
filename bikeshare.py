@@ -174,7 +174,7 @@ def main():
         add_rows = input('\nWould you like to see the raw data? Enter yes or no.\n')
         if add_rows.lower() == 'yes':
             print(df.head())
-
+        # Restart the code
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
