@@ -149,12 +149,12 @@ def user_stats(df):
         print('There is no data for gender')
     # TO DO: Display earliest, most recent, and most common year of birth
     try:
-        oldest_year = df['Birth Year'].min()
-        youngest_year = df['Birth Year'].max()
-        common_year = df['Birth Year'].mode()
-        print('The oldest year is ',oldest_year)
-        print('The youngest year is ',youngest_year)
-        print('The most common year is ',common_year)
+        oldestYear = df['Birth Year'].min()
+        youngestYear = df['Birth Year'].max()
+        commonYear = df['Birth Year'].mode()
+        print('The oldest year is ',oldestYear)
+        print('The youngest year is ',youngestYear)
+        print('The most common year is ',commonYear)
     except KeyError:
         print('There is no data for birth year')
 
